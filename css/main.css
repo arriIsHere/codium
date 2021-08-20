@@ -3,3 +3,13 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  */
+
+ @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+ h1, h2, h3, h4, h5, h6 {
+	 font-family: "Cormorant Garamond", serif;
+ }
+
+ p {
+	font-family: 'Baloo Tammudu 2', cursive;
+ }
