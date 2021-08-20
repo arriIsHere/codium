@@ -1,3 +1,3 @@
 # Codium
 
-a css only design and component system, built on accessibility
+A CSS and HTML only design and component system, built on accessibility!

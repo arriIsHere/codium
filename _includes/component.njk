@@ -1,0 +1,15 @@
+<header>
+	<h2><a href="/">Back to main</a></h2>
+</header>
+<main>
+	<h2>{{title}}</h2>
+	<p>{{description}}</p>
+	<section id="display-content">
+		{{content | safe}}
+	</section>
+	
+	<!-- Source Code Section -->
+	{% highlight "html" %}
+	{{ content | safe }}
+	{% endhighlight %}
+</main>
