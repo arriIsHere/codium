@@ -4,7 +4,8 @@
   "description": "a css only design and component system, built on accessibility",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve --port=3000",
+		"build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://gitlab.com/arriIsHere/codium/issues"
   },
-  "homepage": "https://gitlab.com/arriIsHere/codium#readme"
+  "homepage": "https://gitlab.com/arriIsHere/codium#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2"
+  }
 }
