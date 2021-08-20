@@ -1,0 +1,16 @@
+/**
+ * Copyright 2021 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+html {
+	--background-light: #FFF;
+	--background-dark: #000;
+
+	--text-light: #FFF;
+	--text-dark: #000;
+
+	--link-light: #18A9D4;
+	--link-dark: #0E6079;
+}
