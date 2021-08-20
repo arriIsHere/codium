@@ -6,6 +6,7 @@
 
  @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
  @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
  h1, h2, h3, h4, h5, h6 {
 	 font-family: "Cormorant Garamond", serif;
  }
@@ -13,3 +14,13 @@
  p {
 	font-family: 'Baloo Tammudu 2', cursive;
  }
+
+ header {
+	margin: 5rem;
+ }
+
+ main {
+	 margin: 0 auto;
+	 width: 70rem;
+ }
+
