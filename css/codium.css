@@ -13,3 +13,8 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
+/* Set base font */
+html, body {
+	font-size: 16pt;
+}

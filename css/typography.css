@@ -12,11 +12,14 @@
 html,
 body {
 	font-family: 'Baloo Tammudu 2', cursive;
-	font-size: 16pt;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Stuart", Georgia, serif;
+}
+
+:first-child:is(h1, h2, h3, h4, h5, h6) {
+	margin-top: 0;
 }
 
 h1 {
@@ -55,13 +58,14 @@ a::after {
 	margin: 0;
 	margin-right: auto;
 
+	height: 0.05em;
+	background-color: var(--text-dark);
 	width: 0;
-	border-top: 0.05em solid var(--text-dark);
 }
 
 a:hover::after {
 	width: 100%;
-	transition: width 0.5s ease-out 0.25s;
+	transition: width 600ms ease-out 300ms;
 }
 
 a:hover {

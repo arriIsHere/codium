@@ -23,6 +23,6 @@
 
 .codium-content-page {
 	margin: 0 auto;
-	padding: 3rem;
-	width: 50rem;
+	padding: 5rem;
+	max-width: 50rem;
 }
