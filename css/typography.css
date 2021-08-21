@@ -5,6 +5,7 @@
  */
 
 /*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');*/
+@import url('/css/colors.css');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
 @import url('/fonts/Stuart.css');
 
@@ -65,4 +66,12 @@ a:hover::after {
 
 a:hover {
 	color: var(--text-dark);
+}
+
+.dark a {
+	color: var(--link-light);
+}
+
+.dark a:hover {
+	color: var(--text-light);
 }

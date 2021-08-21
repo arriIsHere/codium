@@ -4,14 +4,24 @@
  * you may not use this file except in compliance with the License.
  */
 
+@import '/css/colors.css';
+
 .codium-header-fullWidth{
 	margin: 0;
 	padding: 4rem;
+}
+
+.dark {
 	color: var(--text-light);
+	background-color: var(--background-dark);
+}
+
+.light {
+	color: var(--text-dark);
+	background-color: var(--background-light);
 }
 
 .codium-content-page {
-	background: var(--background-light);
 	margin: 0 auto;
 	padding: 3rem;
 	width: 50rem;

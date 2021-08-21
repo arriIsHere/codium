@@ -5,12 +5,29 @@
  */
 
 html {
-	--background-light: #FFF;
-	--background-dark: #000;
+
+	/* Design system colors */
+	--color-arabicum-dark: #146151;
+	--color-arabicum-light: #41b69c;
+
+	--color-astaxanthin-dark: #000;
+	--color-astaxanthin-light: #FFF;
+
+	--color-kahakai-dark: #131820;
+	--color-kahakai-light: #e2e4df;
+	
+	--color-hydrate-dark: #024f62;
+	--color-hydrate-light: #2dc2d9;
+
+	--background-light:var(--color-kahakai-light);
+	--background-dark:var(--color-kahakai-dark);
 
 	--text-light: #FFF;
 	--text-dark: #000;
 
-	--link-light: #18A9D4;
-	--link-dark: #0E6079;
+	--text-underline-dark-cool: var(--color-arabicum);
+	--text-underline-light-cool: var(--color-arabicum-light);
+
+	--link-light: var(--color-hydrate-light);
+	--link-dark: var(--color-hydrate-dark);
 }
