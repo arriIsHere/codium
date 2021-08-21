@@ -7,8 +7,8 @@
 @import '/css/colors.css';
 
 .codium-header-fullWidth{
-	margin: 0;
-	padding: 3rem 5rem;
+	margin: 3rem 5rem;
+	padding: 0;
 
 	backdrop-filter: blur(0.5rem);
 }
@@ -54,6 +54,7 @@ body.dark {
 @media (min-width: 1280px) {
 	.codium-content-page {
 		border-radius: 0.25rem;
+		padding: 5rem;
 		margin: 3rem auto;
 	}
 }
