@@ -4,8 +4,9 @@
  * you may not use this file except in compliance with the License.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');*/
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('/fonts/Stuart.css');
 
 html,
 body {
@@ -14,22 +15,22 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Cormorant Garamond", serif;
+	font-family: "Stuart", Georgia, serif;
 }
 
 h1 {
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 h2 {
 	font-size: 1.5em;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 h3 {
 	font-size: 1.125em;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 p {
