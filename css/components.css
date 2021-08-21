@@ -9,6 +9,12 @@
 .codium-header-fullWidth{
 	margin: 0;
 	padding: 4rem;
+	backdrop-filter: blur(0.5rem);
+}
+
+:where(.dark .codium-header-fullWidth),
+.codium-header-fullWidth:where(.dark) {
+	background-color: var(--background-dark-frosted);
 }
 
 .dark {
@@ -25,4 +31,10 @@
 	margin: 0 auto;
 	padding: 5rem;
 	max-width: 50rem;
+}
+.background {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }

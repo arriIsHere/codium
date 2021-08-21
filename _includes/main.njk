@@ -22,11 +22,11 @@
 	<title>{{ title }}</title>
 	<style>
 	body {
-		background: {{background}};
+		background-image: url('{{backgroundImage}}');
 	}
 	</style>
 </head>
-<body>
+<body class="background {{backgroundImageTone}}">
 	{{ content | safe }}
 </body>
 </html>
