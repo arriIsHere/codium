@@ -8,38 +8,48 @@
 
 .codium-header-fullWidth{
 	margin: 0;
-	padding: 4rem;
+	padding: 3rem 5rem;
+
 	backdrop-filter: blur(0.5rem);
-}
-
-.dark .codium-header-fullWidth,
-.codium-header-fullWidth.dark {
-	background-color: var(--background-dark-frosted);
-}
-
-.light .codium-header-fullWidth,
-.codium-header-fullWidth.light {
-	background-color: var(--background-light-frosted);
 }
 
 .dark {
 	color: var(--text-light);
 	background-color: var(--background-dark);
+
+	text-shadow: 0.25em 0.25em 0.5em var(--text-dark);
+	box-shadow: 0.5em 0.5em 2em var(--background-light);
 }
 
 .light {
 	color: var(--text-dark);
 	background-color: var(--background-light);
+	text-shadow: 0.25em 0.25em 0.5em var(--text-light);
+	box-shadow: 0.5em 0.5em 2em var(--background-dark);
+}
+
+body.light,
+body.dark {
+	box-shadow: none;
 }
 
 .codium-content-page {
+	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 5rem;
-	max-width: 50rem;
+	padding: 3rem;
+	max-width: 1280px;
 }
+
 .background {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+@media (min-width: 1280px) {
+	.codium-content-page {
+		border-radius: 0.25rem;
+		margin: 3rem auto;
+	}
 }
