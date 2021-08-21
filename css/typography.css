@@ -1,0 +1,67 @@
+/**
+ * Copyright 2021 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+html,
+body {
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size: 16pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Cormorant Garamond", serif;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.125em;
+	font-weight: bold;
+}
+
+p {
+	font-family: inherit;
+	font-size: 1em;
+	font-weight: lighter;
+	line-height: 1.5em;
+	padding-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	line-height: 0.75em;
+	color: var(--link-dark);
+}
+
+a::after {
+	content: '';
+	display: block;
+	margin: 0;
+	margin-right: auto;
+
+	width: 0;
+	border-top: 0.05em solid var(--text-dark);
+}
+
+a:hover::after {
+	width: 100%;
+	transition: width 0.5s ease-out 0.25s;
+}
+
+a:hover {
+	color: var(--text-dark);
+}

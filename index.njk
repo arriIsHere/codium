@@ -4,17 +4,33 @@ layout: main.njk
 image: codiumMain.jpg
 background: '#000'
 title: Codium
-description: A design system with snippets based components.
+description: A CSS and HTML first design system built on accessibility.
 ---
-<header>
+<header class="codium-header-fullWidth">
 	<h1>{{title}}</h1>
 	<p>{{description}}</p>
 </header>
-<main>
-	<article>
-		<h2>An Overview of Codium</h2>
-		<section>
-			<h3>What Is Codium?</h2>
+<main class="codium-content-page">
+	<article aria-labelledby="codium-explained">
+		<h2 id="codium-explained">Codium Explained</h2>
+		<section aria-labelledby="css-first">
+			<h3 id="css-first">What Is CSS-first design?</h3>
+			<p>
+				CSS-first is a method of development that prioritizes content structure. It ensures design
+				elements are implemented using CSS as a first pass and then added to any HTML. The CSS 
+				for the components should be as unopinionated as possible so as to allow flexability in
+				the HTML structure. 
+			</p>
+			<p>
+				The advantages to this are increased flexibility for developers, separation of design and content
+				and enhanced accessibility.
+			</p>
+			<p>
+				CSS-first design works best when combined with HTML-first web development.
+			</p>
+		</section>
+		<section aria-labelledby="what-is-codium">
+			<h3 id="what-is-codium">What Is Codium?</h3>
 			<p>
 				Codium is a design system that that was created using HTML and CSS snippets.
 				It is loosely based on 
@@ -25,18 +41,24 @@ description: A design system with snippets based components.
 				proof of concept to show most common design elements could be built without JavaScript.
 			</p>
 		</section>
-		<section>
-			<h3>Why Codium?</h2>
+		<section aria-labelledby="why-codium">
+			<h3 id="why-codium">Why Codium?</h3>
 			<p>
 				Many design systems are built on components that require a particular framework.
 				Codium uses HTML and CSS snippets. This allows the system to be implemented in 
 				any framework.
 			</p>
 		</section>
-		<section>
-			<h3>When Should I not Use Codium?</h2>
+		<section aria-labelledby="not-use-codium">
+			<h3 id="not-use-codium">When Should I not Use Codium?</h3>
 			<p>
-				If you need a quick design system to get off the ground quickly, 
+				If you have an existing ecosystem that would not adapt well with using raw CSS
+				and HTML for your design system. If you are using a system with little or no
+				CSS used for styling and structure.
+
+				Codium works best when developers write in a CSS-first manor, if your team 
+				does not have the technical expertise in CSS Codium will be a difficult system to 
+				implement.
 			</p>
 		</section>
 	</article>

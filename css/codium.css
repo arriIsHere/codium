@@ -4,6 +4,12 @@
  * you may not use this file except in compliance with the License.
  */
 
-@import '/css/codium.css';
+@import '/css/colors.css';
+@import '/css/components.css';
+@import '/css/typography.css';
 
-
+/* Reset */
+html, body {
+	margin: 0;
+	padding: 0;
+}
