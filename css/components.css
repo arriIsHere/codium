@@ -14,6 +14,8 @@
 }
 
 .dark {
+	--text-color: var(--text-light);
+	--link-color: var(--link-light);
 	color: var(--text-light);
 	background-color: var(--background-dark);
 
@@ -22,6 +24,8 @@
 }
 
 .light {
+	--text-color: var(--text-dark);
+	--link-color: var(--link-dark);
 	color: var(--text-dark);
 	background-color: var(--background-light);
 	text-shadow: 0.25em 0.25em 0.5em var(--text-light);

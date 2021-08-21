@@ -4,8 +4,6 @@
  * you may not use this file except in compliance with the License.
  */
 
-/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');*/
-@import url('/css/colors.css');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
 @import url('/fonts/Stuart.css');
 
@@ -49,7 +47,7 @@ a {
 	text-decoration: none;
 	display: inline-block;
 	line-height: 0.75em;
-	color: var(--link-dark);
+	color: var(--link-color);
 }
 
 a::after {
@@ -59,7 +57,7 @@ a::after {
 	margin-right: auto;
 
 	height: 0.05em;
-	background-color: var(--text-dark);
+	background-color: var(--text-color);
 	width: 0;
 }
 
@@ -69,13 +67,5 @@ a:hover::after {
 }
 
 a:hover {
-	color: var(--text-dark);
-}
-
-.dark a {
-	color: var(--link-light);
-}
-
-.dark a:hover {
-	color: var(--text-light);
+	color: var(--text-color);
 }
