@@ -22,8 +22,8 @@ html {
 	--background-light:var(--color-kahakai-light);
 	--background-dark:var(--color-kahakai-dark);
 
-	--text-light: #FFF;
-	--text-dark: #000;
+	--text-light: var(--color-kahakai-light);
+	--text-dark: var(--color-kahakai-dark);
 
 	--text-underline-dark-cool: var(--color-arabicum);
 	--text-underline-light-cool: var(--color-arabicum-light);
