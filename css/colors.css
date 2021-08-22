@@ -14,24 +14,22 @@ html {
 	--color-astaxanthin-light: #FFF;
 
 	--color-kahakai-dark: #131820;
-	--color-kahakai-dark-transparent: #13182066;
 	--color-kahakai-light: #e2e4df;
-	--color-kahakai-light-transparent: #e2e4df66;
 	
 	--color-hydrate-dark: #024f62;
 	--color-hydrate-light: #2dc2d9;
 
+	/* Background Colors*/
 	--background-dark: var(--color-kahakai-dark);
-	--background-dark-frosted: var(--color-kahakai-dark-transparent);
 	--background-light: var(--color-kahakai-light);
-	--background-light-frosted: var(--color-kahakai-light-transparent);
 
+	/* Text Colors */
 	--text-dark: var(--color-kahakai-dark);
 	--text-light: var(--color-kahakai-light);
-
-	--text-underline-dark-cool: var(--color-arabicum);
+	--text-underline-dark-cool: var(--color-arabicum-dark);
 	--text-underline-light-cool: var(--color-arabicum-light);
 
+	/* Link colors*/
 	--link-dark: var(--color-hydrate-dark);
 	--link-light: var(--color-hydrate-light);
 }

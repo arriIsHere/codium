@@ -16,20 +16,29 @@
 .dark {
 	--text-color: var(--text-light);
 	--link-color: var(--link-light);
+	--underline-color: var(--text-underline-light-cool);
+	--text-shadow: 0.25em 0.25em 0.5em var(--text-dark);
+	--box-shadow: 0.5em 0.5em 2em var(--background-light);
+
 	color: var(--text-light);
 	background-color: var(--background-dark);
 
-	text-shadow: 0.25em 0.25em 0.5em var(--text-dark);
-	box-shadow: 0.5em 0.5em 2em var(--background-light);
+	text-shadow: var(--text-shadow);
+	box-shadow: var(--box-shadow);
 }
 
 .light {
 	--text-color: var(--text-dark);
 	--link-color: var(--link-dark);
+	--underline-color: var(--text-underline-dark-cool);
+	--text-shadow: 0.25em 0.25em 0.5em var(--text-light);
+	--box-shadow: 0.5em 0.5em 2em var(--background-dark);
+
 	color: var(--text-dark);
 	background-color: var(--background-light);
-	text-shadow: 0.25em 0.25em 0.5em var(--text-light);
-	box-shadow: 0.5em 0.5em 2em var(--background-dark);
+
+	text-shadow: var(--text-shadow);
+	box-shadow: var(--box-shadow);
 }
 
 body.light,

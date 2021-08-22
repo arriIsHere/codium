@@ -16,13 +16,31 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Stuart", Georgia, serif;
 }
 
-:first-child:is(h1, h2, h3, h4, h5, h6) {
+:where(:first-child):is(h1, h2, h3, h4, h5, h6) {
 	margin-top: 0;
+	margin-bottom: 1em;
 }
 
 h1 {
+	display: inline-block;
 	font-size: 3em;
 	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+
+h1::after {
+	content: '';
+	display: block;
+	margin: 0;
+	margin-left: 0.125em;
+
+	border-radius: 0.0625em;
+
+	height: 0.125em;
+	background-color: var(--underline-color);
+	box-shadow: var(--text-shadow);
+	width: 80%;
+
 }
 
 h2 {
