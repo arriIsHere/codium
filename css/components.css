@@ -10,11 +10,7 @@
 	margin: 3rem 0;
 	padding: 1rem 5rem;
 
-	backdrop-filter: blur(0.5rem);
-}
-@media (min-width: 1280px) {
-	.codium-header-fullWidth {
-	}
+	backdrop-filter: blur(0.25rem);
 }
 
 .dark {
