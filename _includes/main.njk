@@ -17,7 +17,6 @@
 	<meta property="og:url" content="https://codium.com{{page.url}}">
 	<!-- Meta tags for twitter -->
 	<meta name="twitter:card" content="summary_large_image">
-	<link href="/css/syntaxHighlight.css" rel="stylesheet">
 	<link href="/css/main.css" rel="stylesheet">
 	<title>{{ title }}</title>
 	<style>
@@ -27,10 +26,25 @@
 	</style>
 </head>
 <body class="background {{backgroundImageTone}}">
-	<header class="codium-header-fullWidth">
+	<header class="codium-header">
 		<h1>{{title}}</h1>
 		<p>{{description}}</p>
 	</header>
 	{{ content | safe }}
+	<footer class="codium-footer dark">
+		<p>Codium is &copy; 2021 Arriana Blais</p>
+		<p>
+			Background image is licensed under 
+			<a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"> 
+				Creative Commons Attribution-Share Alike 3.0 Unported
+			</a>
+		</p>
+		<p>
+			Codium, and all other items licensed to Arriana Blais under
+			<a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
+					Creative Commons Attribution-ShareAlike 4.0 International License
+			</a>
+		</p>
+	</footer>
 </body>
 </html>

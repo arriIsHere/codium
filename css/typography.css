@@ -73,9 +73,7 @@ a::after {
 	display: block;
 	margin: 0;
 	margin-right: auto;
-
-	height: 0.05em;
-	background-color: var(--text-color);
+	border-bottom: 0.05em solid var(--text-color);
 	width: 0;
 }
 

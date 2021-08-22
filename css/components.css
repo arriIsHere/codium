@@ -6,7 +6,11 @@
 
 @import '/css/colors.css';
 
-.codium-header-fullWidth{
+:focus {
+	outline: var(--underline-color) dashed 0.1rem;
+}
+
+.codium-header{
 	margin: 3rem 0;
 	padding: 1rem 5rem;
 
@@ -64,4 +68,20 @@ body.dark {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+.codium-footer {
+	padding: 1em;
+	margin-bottom: 0;
+
+	text-align: center;
+
+	box-shadow: none;
+}
+
+.codium-footer p {
+	font-size: 0.8rem;
+
+	margin: 0;
+	padding-bottom: 0.25em;
 }
