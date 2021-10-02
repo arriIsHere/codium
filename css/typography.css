@@ -85,3 +85,7 @@ a:hover::after {
 a:hover {
 	color: var(--text-color);
 }
+
+.center {
+	text-align: center;
+}

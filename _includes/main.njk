@@ -18,7 +18,7 @@
 	<!-- Meta tags for twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<link href="/css/main.css" rel="stylesheet">
-	<title>{{ title }}</title>
+	<title>Codium - {{ title }}</title>
 	<style>
 	body {
 		background-image: url('{{backgroundImage}}');
@@ -29,6 +29,13 @@
 	<header class="codium-header">
 		<h1>{{title}}</h1>
 		<p>{{description}}</p>
+		<nav>
+			<ul>
+			{%- for page in collections.all -%}
+				<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+			{%- endfor -%}
+			</ul>
+		</nav>
 	</header>
 	{{ content | safe }}
 	<footer class="codium-footer dark">

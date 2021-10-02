@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve --port=3000",
-		"build": "eleventy"
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,9 @@
   "author": "Arri Blais <arriblais@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://gitlab.com/arriIsHere/codium/issues"
+    "url": "https://github.com/arriIsHere/codium/issues"
   },
-  "homepage": "https://gitlab.com/arriIsHere/codium#readme",
+  "homepage": "https://github.com/arriIsHere/codium#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2"
