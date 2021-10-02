@@ -29,7 +29,7 @@
 	<header class="codium-header">
 		<h1>{{title}}</h1>
 		<p>{{description}}</p>
-		<nav>
+		<nav class="codium-top-nav">
 			<ul>
 			{%- for page in collections.all -%}
 				<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>

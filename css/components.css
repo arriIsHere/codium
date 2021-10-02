@@ -83,6 +83,14 @@
 	padding-bottom: 0.25em;
 }
 
+.codium-top-nav ul {
+	display: flex;
+}
+
+.codium-top-nav li {
+	list-style-type: none;
+}
+
 .codium-color-square {
 	display: inline-block;
 	width: 5em;
