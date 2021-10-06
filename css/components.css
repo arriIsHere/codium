@@ -10,14 +10,6 @@
 	outline: var(--underline-color) dashed 0.1rem;
 }
 
-.codium-header{
-	margin: 3rem 0;
-	padding: 1rem 5rem;
-
-	backdrop-filter: blur(0.25rem);
-	text-shadow: var(--text-shadow);
-	box-shadow: var(--box-shadow);
-}
 
 .dark {
 	--text-color: var(--text-light);
@@ -25,7 +17,7 @@
 	--underline-color: var(--text-underline-light-cool);
 	--text-shadow: 0.25em 0.25em 0.5em var(--text-dark);
 	--box-shadow: 0.5em 0.5em 2em var(--background-light);
-
+	
 	color: var(--text-light);
 	background-color: var(--background-dark);
 }
@@ -36,9 +28,17 @@
 	--underline-color: var(--text-underline-dark-cool);
 	--text-shadow: 0.25em 0.25em 0.5em var(--text-light);
 	--box-shadow: 0.5em 0.5em 2em var(--background-dark);
-
+	
 	color: var(--text-dark);
 	background-color: var(--background-light);
+}
+
+.codium-header{
+	margin: 3rem 0;
+	padding: 1rem 5rem;
+
+	backdrop-filter: blur(0.25rem);
+	text-shadow: var(--text-shadow);
 }
 
 .codium-content-page {
@@ -97,6 +97,6 @@
 	height: 5em;
 	text-shadow: none;
 	text-align: center;
-	border: 2px solid var(--text-color);
+	box-shadow: var(--text-shadow);
 	vertical-align: middle;
 }
