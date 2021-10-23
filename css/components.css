@@ -17,6 +17,7 @@
 	--underline-color: var(--text-underline-light-cool);
 	--text-shadow: 0.25em 0.25em 0.5em var(--text-dark);
 	--box-shadow: 0.5em 0.5em 2em var(--background-light);
+	--frosted-color: var(--background-dark-frosted);
 	
 	color: var(--text-light);
 	background-color: var(--background-dark);
@@ -28,16 +29,18 @@
 	--underline-color: var(--text-underline-dark-cool);
 	--text-shadow: 0.25em 0.25em 0.5em var(--text-light);
 	--box-shadow: 0.5em 0.5em 2em var(--background-dark);
+	--frosted-color: var(--background-light-frosted);
 	
 	color: var(--text-dark);
 	background-color: var(--background-light);
 }
 
-.codium-header{
+.codium-header {
 	margin: 3rem 0;
 	padding: 1rem 5rem;
 
 	backdrop-filter: blur(0.25rem);
+	background-color: var(--frosted-color);
 	text-shadow: var(--text-shadow);
 }
 
