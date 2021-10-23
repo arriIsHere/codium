@@ -7,6 +7,9 @@
     "start": "eleventy --serve --port=3000",
     "build": "eleventy"
   },
+  "engines": {
+    "node": "14.18.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/arriIsHere/codium.git"
