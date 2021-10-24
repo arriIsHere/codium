@@ -88,6 +88,8 @@
 
 .codium-top-nav ul {
 	display: flex;
+	gap: 2em;
+	padding: 0;
 }
 
 .codium-top-nav li {
