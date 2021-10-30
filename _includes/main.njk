@@ -32,7 +32,9 @@
 		<nav class="codium-top-nav">
 			<ul>
 			{%- for page in collections.all -%}
-				<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+				{%- if page.data.title -%}
+					<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+				{%- endif -%}
 			{%- endfor -%}
 			</ul>
 		</nav>
