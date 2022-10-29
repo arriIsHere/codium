@@ -1,0 +1,13 @@
+.codium-color-square {
+    padding: 0.5em;
+    box-sizing: border-box;
+	display: inline-block;
+	width: 5em;
+	height: 5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+	text-shadow: none;
+	text-align: center;
+	box-shadow: var(--text-shadow);
+	vertical-align: middle;
+}

@@ -5,3 +5,6 @@
  */
 
 @import '/css/codium.css';
+
+/* extra styles only used on the spec site */
+@import '/css/specs.css';

@@ -95,13 +95,3 @@
 .codium-top-nav li {
 	list-style-type: none;
 }
-
-.codium-color-square {
-	display: inline-block;
-	width: 5em;
-	height: 5em;
-	text-shadow: none;
-	text-align: center;
-	box-shadow: var(--text-shadow);
-	vertical-align: middle;
-}

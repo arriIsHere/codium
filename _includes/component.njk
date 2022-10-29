@@ -2,15 +2,22 @@
 layout: main.njk
 css: component.css
 ---
-<main>
-	<h1>{{title}}</h1>
-	<p>{{description}}</p>
-	<section id="display-content">
-		{{content | safe}}
-	</section>
-	
+<main class="codium-content-page light">
+	<h2>Code example</h2>
+	<style>
+		#display-content {
+			background-image: url('{{backgroundImage}}');
+			padding-top: 5em;
+			padding-bottom: 5em;
+		}
+	</style>
+
 	<!-- Source Code Section -->
 	{% highlight "html" %}
 	{{ content | safe }}
 	{% endhighlight %}
+
+	<section class="dark" id="display-content">
+		{{content | safe}}
+	</section>
 </main>
