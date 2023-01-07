@@ -11,3 +11,7 @@
 	box-shadow: var(--text-shadow);
 	vertical-align: middle;
 }
+
+.codium-color-square.light {
+	box-shadow: 0.25em 0.25em 0.5em var(--text-dark);
+}
