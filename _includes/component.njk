@@ -13,9 +13,11 @@ css: component.css
 	</style>
 
 	<!-- Source Code Section -->
+	<section class="dark">
 	{% highlight "html" %}
 	{{ content | safe }}
 	{% endhighlight %}
+	</section>
 
 	<section class="dark" id="display-content">
 		{{content | safe}}

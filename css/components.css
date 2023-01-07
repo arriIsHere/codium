@@ -18,9 +18,10 @@
 	--text-shadow: 0.25em 0.25em 0.5em var(--text-dark);
 	--box-shadow: 0.5em 0.5em 2em var(--background-light);
 	--frosted-color: var(--background-dark-frosted);
+
+	--background-color: var(--background-dark);
 	
 	color: var(--text-light);
-	background-color: var(--background-dark);
 }
 
 .light {
@@ -31,8 +32,9 @@
 	--box-shadow: 0.5em 0.5em 2em var(--background-dark);
 	--frosted-color: var(--background-light-frosted);
 	
+	--background-color: var(--background-light);
+
 	color: var(--text-dark);
-	background-color: var(--background-light);
 }
 
 .codium-header {
@@ -52,7 +54,10 @@
 
 	text-shadow: var(--text-shadow);
 	box-shadow: var(--box-shadow);
+
+	background-color: var(--background-color);
 }
+
 @media (min-width: 1280px) {
 	.codium-content-page {
 		border-radius: 0.25rem;
@@ -77,6 +82,7 @@
 
 	text-shadow: var(--text-shadow);
 	box-shadow: var(--box-shadow);
+	background-color: var(--background-color);
 }
 
 .codium-footer p {
