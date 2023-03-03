@@ -1,0 +1,19 @@
+---
+layout: main.njk
+tags: topLevel
+backgroundImage: '/images/codium-rock.jpg'
+backgroundImageTone: dark
+title: Component Library
+description:
+---
+<main class="codium-content-page light">
+    <p>What follows is a list of the currently implimented components in codium Many more to come!</p>
+
+    <ul>
+    {%- for page in collections.components -%}
+        {%- if page.data.title -%}
+            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+        {%- endif -%}
+    {%- endfor -%}
+    </ul>
+</main>
