@@ -87,4 +87,74 @@ description:
 			</p>
 		</section>
 	</article>
+
+	<article aria-labelledby="codium-typography">
+		<h2 id="codium-typography">Typography</h2>
+		<p>
+			One of the visual inspirations for Codium was the 
+			<a target="_blank" href="https://rei.github.io/rei-cedar-docs/">Cedar Design System</a>
+			The Stewart font, was utilized as it was also designed accessability first.
+			Stewart is used in Codium primarily for headers. 
+		</p>
+
+		<p>
+			For the content body Baloo Tammudu 2, from Google Fonts was used. It has a smooth
+			curve style font that makes it readable at smaller sizes. This makes it ideal
+			for a content body font.
+		</p>
+	</article>
+
+	<article aria-labelledby="codium-spacing">
+		<h2 id="codium-spacing">Spacing</h2>
+		<p>
+			Codium has spacing requirements relative to the font size of a container. 
+			These will work out to pixel values but in general all codium components adhere to a 
+			simple rule about padding and margins: <em>they should be done relative to font size.</em>
+		</p>
+		<section aria-labelledby="spacing-margins">
+			<h3 id="spacing-margins">Margins</h3>
+			<p>
+				Codium mostly anticipates a vertical flow, to this end, most elements don't have 
+				a side margin. Top margins will have a constant setting of <code>3rem</code>.
+				Root font size is defined above in <a href="#codium-typography">Typography</a>.
+			</p>
+
+			<h4>Margin Sizing</h4>
+			<dl>
+				<dt>Top</dt>
+				<dt>Bottom</dt>
+				<dd><code>3rem</code></dd>
+				<dt>Left</dt>
+				<dt>Right</dt>
+				<dd><code>0</code></dd>
+			</dl>
+		</section>
+		<section aria-labelledby="spacing-padding">
+			<h3 id="spacing-padding">Padding</h3>
+			<p>
+				Codium's padding follows two different rules. While the content page will have 
+				<code>3rem</code> all around. Headers, footers, and other main elements will 
+				have <code>5rem</code> on the sides and <code>1rem</code> above and below. 
+			</p>
+
+			<h4>Padding for Page Content</h4>
+			<dl>
+				<dt>Top</dt>
+				<dt>Bottom</dt>
+				<dt>Right</dt>
+				<dt>Left</dt>
+				<dd><code>3rem</code></dd>
+			</dl>
+
+			<h4>Padding for Headers and Footers</h4>
+			<dl>
+				<dt>Top</dt>
+				<dt>Bottom</dt>
+				<dd><code>1rem</code></dd>
+				<dt>Left</dt>
+				<dt>Right</dt>
+				<dd><code>5rem</code></dd>
+			</dl>
+		</section>
+	</article>
 </main>
