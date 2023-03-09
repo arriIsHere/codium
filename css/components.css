@@ -94,10 +94,18 @@
 
 .codium-top-nav ul {
 	display: flex;
+	flex-direction: row;
 	gap: 2em;
 	padding: 0;
 }
 
 .codium-top-nav li {
 	list-style-type: none;
+}
+
+@media (max-width: 800px) {
+	.codium-top-nav ul {
+		flex-direction: column;
+		gap: 0.5em;
+	}
 }
