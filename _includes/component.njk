@@ -7,7 +7,9 @@ tags: components
 	<h2>Code example</h2>
 	<style>
 		#display-content {
+			{% if not hideBackgroundInExample %}
 			background-image: url('{{backgroundImage}}');
+			{% endif %}
 			padding-top: 5em;
 			padding-bottom: 5em;
 		}
@@ -20,7 +22,11 @@ tags: components
 	{% endhighlight %}
 	</section>
 
-	<section class="dark" id="display-content">
+	<section 
+	{% if not hideBackgroundInExample %}
+		class="dark" 
+	{% endif %}
+	id="display-content">
 		{{content | safe}}
 	</section>
 </main>

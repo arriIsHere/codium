@@ -1,0 +1,15 @@
+/**
+ * Copyright 2023 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+html {
+    --spacing-small: 1rem;
+    --spacing-medium: 3rem;
+    --spacing-large: 5rem;
+
+    --spacing-relative-small: 1em;
+    --spacing-relative-medium: 3em;
+    --spacing-relative-large: 5em;
+}
