@@ -139,7 +139,14 @@
 }
 
 .codium-button.secondary {
-	background-color: var(--link-color);
+	background-color: unset;
+	color: var(--link-color);
+	border: 0.05em solid var(--link-color);
+}
+
+.codium-button.secondary:hover {
+	color: var(--text-color-invert);
+	border: 0.05em solid transparent;
 }
 
 .codium-button.error {
