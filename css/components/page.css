@@ -1,0 +1,24 @@
+/**
+ * Copyright 2023 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+.codium-content-page {
+	box-sizing: border-box;
+	margin: var(--spacing-medium) auto;
+	padding: var(--spacing-medium);
+	max-width: 1280px;
+
+	text-shadow: var(--text-shadow);
+	box-shadow: var(--box-shadow);
+
+	background-color: var(--background-color);
+}
+
+@media (min-width: 1280px) {
+	.codium-content-page {
+		border-radius: 0.25rem;
+		padding: var(--spacing-large);
+	}
+}

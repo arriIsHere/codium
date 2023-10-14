@@ -1,0 +1,33 @@
+/**
+ * Copyright 2023 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+.codium-header {
+	margin: var(--spacing-medium) 0;
+	padding: var(--spacing-small) var(--spacing-large);
+
+	backdrop-filter: blur(0.25rem);
+	background-color: var(--frosted-color);
+	text-shadow: var(--text-shadow);
+}
+
+
+.codium-top-nav ul {
+	display: flex;
+	flex-direction: row;
+	gap: var(--spacing-relative-small);
+	padding: 0;
+}
+
+.codium-top-nav li {
+	list-style-type: none;
+}
+
+@media (max-width: 800px) {
+	.codium-top-nav ul {
+		flex-direction: column;
+		gap: 0.5em;
+	}
+}
