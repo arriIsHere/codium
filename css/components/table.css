@@ -13,13 +13,17 @@
     text-align: right;
 }
 
+.codium-table td {
+    text-align: center;
+}
+
 .codium-table tr:first-child {
     border-bottom: 0.1em solid var(--underline-color);
 }
 
-.codium-table tr:not(:first-child) th:first-child,
-.codium-table tr:first-child th:first-child:empty {
-    border-right: 0.1em solid var(--underline-color);
+.codium-table tr:first-child th:empty + th,
+.codium-table tr th + td {
+    border-left: 0.1em solid var(--underline-color);
 }
 
 .codium-table td, .codium-table th {
