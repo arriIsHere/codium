@@ -1,0 +1,27 @@
+/**
+ * Copyright 2023 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+.codium-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.codium-table th {
+    text-align: right;
+}
+
+.codium-table tr:first-child {
+    border-bottom: 0.1em solid var(--underline-color);
+}
+
+.codium-table tr:not(:first-child) th:first-child,
+.codium-table tr:first-child th:first-child:empty {
+    border-right: 0.1em solid var(--underline-color);
+}
+
+.codium-table td, .codium-table th {
+    padding: var(--spacing-relative-small);
+}
