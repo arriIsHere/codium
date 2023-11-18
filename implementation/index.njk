@@ -1,0 +1,26 @@
+---
+layout: main.njk
+tags: topLevel
+backgroundImage: '/images/codium-rock.jpg'
+backgroundImageTone: dark
+title: Using Codium
+description:
+---
+<main class="codium-content-page light">
+    <article aria-labelledby="css-library">
+        <h2 id="css-library">CSS Library</h2>
+        <p>
+            The easiest way to add codium to your project or site is to use the
+            CSS library. You can either use the CDN, located at <code>https://codium.rocks/css/main.css</code>.
+        </p>
+        <p>
+            Alternatively, you may also install the npm package. This will come with all the CSS available from the CDN.
+            You can access the main css file from the root of the package.
+        </p>
+        <section class="dark">
+        {% highlight "bash" %}
+        npm i @codium-css/css
+        {% endhighlight %}
+        </section>
+    </article>
+</main>
