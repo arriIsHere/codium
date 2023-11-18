@@ -1,5 +1,5 @@
 {
-  "name": "codium",
+  "name": "@codium-css/css",
   "version": "1.0.0",
   "description": "a css only design and component system, built on accessibility",
   "main": "index.js",
