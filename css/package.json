@@ -1,0 +1,16 @@
+{
+    "name": "@codium-css/css",
+    "version": "1.0.0",
+    "description": "a css only design and component system, built on accessibility",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/arriIsHere/codium.git"
+    },
+    "keywords": ["css", "design system", "webdev", "library", "css library"],
+    "author": "Arri Blais <arriblais@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/arriIsHere/codium/issues"
+    },
+    "homepage": "https://codium.rocks"
+}

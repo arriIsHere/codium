@@ -1,5 +1,5 @@
 {
-  "name": "@codium-css/css",
+  "name": "@codium-css",
   "version": "1.0.0",
   "description": "a css only design and component system, built on accessibility",
   "main": "index.js",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/arriIsHere/codium/issues"
   },
-  "homepage": "https://github.com/arriIsHere/codium#readme",
+  "homepage": "https://codium.rocks",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0"
