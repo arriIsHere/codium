@@ -13,6 +13,10 @@
 	text-shadow: var(--text-shadow);
 }
 
+.codium-header h1 {
+	margin-bottom: 0;
+}
+
 
 .codium-top-nav ul {
 	display: flex;
