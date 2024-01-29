@@ -1,3 +1,6 @@
+/*
+	x-clacks-overhead: GNU Terry Pratchett
 /css/*
 	Access-Control-Allow-Origin: *
-	x-clacks-overhead: GNU Terry Pratchett
+/fonts/*
+	Access-Control-Allow-Origin: *
