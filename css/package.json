@@ -1,6 +1,6 @@
 {
     "name": "@codium-css/css",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "a css only design and component system, built on accessibility",
     "repository": {
         "type": "git",
