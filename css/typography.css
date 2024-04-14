@@ -5,7 +5,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
-@import url('/fonts/Stuart.css');
+@import url('./fonts/Stuart.css');
 
 html,
 body {
