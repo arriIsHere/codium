@@ -4,7 +4,7 @@
  * you may not use this file except in compliance with the License.
  */
 
-@import '/css/codium.css';
+@import './codium.css';
 
 /* extra styles only used on the spec site */
-@import '/css/specs.css';
+@import './specs.css';

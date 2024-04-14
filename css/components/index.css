@@ -4,15 +4,15 @@
  * you may not use this file except in compliance with the License.
  */
 
-@import '/css/colors.css';
-@import '/css/spacing.css';
+@import '../colors.css';
+@import '../spacing.css';
 
 /* Individual Components */
-@import '/css/components/button.css';
-@import '/css/components/header.css';
-@import '/css/components/footer.css';
-@import '/css/components/page.css';
-@import '/css/components/table.css';
+@import './button.css';
+@import './header.css';
+@import './footer.css';
+@import './page.css';
+@import './table.css';
 
 :focus {
 	outline: var(--underline-color) dashed 0.1rem;

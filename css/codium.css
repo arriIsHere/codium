@@ -4,9 +4,9 @@
  * you may not use this file except in compliance with the License.
  */
 
-@import '/css/colors.css';
-@import '/css/components/index.css';
-@import '/css/typography.css';
+@import './colors.css';
+@import './components/index.css';
+@import './typography.css';
 
 /* Reset */
 html, body {
