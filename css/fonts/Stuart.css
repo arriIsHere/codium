@@ -6,14 +6,14 @@
  @font-face {
   font-family: 'Stuart';
   font-weight: 1 999;
-  src: url("/fonts/REIStuart-VF-Web-Subset.woff2") format("woff2-variations"),
-    url("/fonts/REIStuart-VF-Web-Subset.woff2") format("woff2")
+  src: url("./REIStuart-VF-Web-Subset.woff2") format("woff2-variations"),
+    url("./REIStuart-VF-Web-Subset.woff2") format("woff2")
 }
 
 @font-face {
   font-family: 'Stuart';
   font-weight: 1 999;
   font-style: italic;
-  src: url("/fonts/REIStuartWebItalics-VF-Web-Subset.woff2") format("woff2-variations"),
-    url("/fonts/REIStuartWebItalics-VF-Web-Subset.woff2") format("woff2")
+  src: url("./REIStuartWebItalics-VF-Web-Subset.woff2") format("woff2-variations"),
+    url("./REIStuartWebItalics-VF-Web-Subset.woff2") format("woff2")
 }
