@@ -4,6 +4,7 @@
   "description": "a css only design and component system, built on accessibility",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "eleventy --serve --port=3000",
     "build": "eleventy"
   },
@@ -22,7 +23,7 @@
   },
   "homepage": "https://codium.rocks",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
   }
 }
