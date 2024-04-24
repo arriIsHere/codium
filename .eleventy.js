@@ -4,10 +4,13 @@
  * you may not use this file except in compliance with the License.
  */
 
- const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const pluginWebC = require('@11ty/eleventy-plugin-webc');
+
  module.exports = (eleventyConfig) => {
  
 	 eleventyConfig.addPlugin(syntaxHighlight);
+	 eleventyConfig.addPlugin(pluginWebC);
  
 	 return {
 		 templateFormats: [
