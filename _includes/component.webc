@@ -1,0 +1,37 @@
+---
+layout: main.njk
+css: component.css
+tags: components
+---
+<main class="codium-content-page light">
+	<h2>Code example</h2>
+	<style>
+		#display-content {
+			<template webc:if="!hideBackgroundInExample">
+				background-image: <template @raw="backgroundImage" webc:nokeep></template>
+			</template>
+			padding-top: 5em;
+			padding-bottom: 5em;
+		}
+	</style>
+	<section class="dark">
+		<syntax-highlight
+			language="html"
+			webc:import="npm:@11ty/eleventy-plugin-syntaxhighlight"
+			@text="content">
+		</syntax-highlight>
+	</section>
+
+	<section 
+		webc:if="hideBackgroundInExample" 
+		id="display-content"
+		@raw="content">
+	</section>
+	<section
+		webc:else
+		id="display-content"
+		class="dark"
+		@raw="content">
+	</section>
+
+</main>

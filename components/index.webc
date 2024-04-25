@@ -1,0 +1,15 @@
+---
+layout: main.njk
+tags: topLevel
+backgroundImage: '/images/codium-rock.jpg'
+backgroundImageTone: dark
+title: Component Library
+description:
+---
+<main class="codium-content-page light">
+	<h2>Currently Implimented</h2>
+	<p>Here are all the currently implimented components in Codum. Many more to come!</p>
+	<ul>
+		<li webc:for="page of collections.components"><a :href="page.url" @text="page.data.title"></a></li>
+	</ul>
+</main>
