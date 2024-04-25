@@ -1,5 +1,5 @@
 /**
- * Copyright 2021 Arriana Blais
+ * Copyright 2024 Arriana Blais
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  */
@@ -11,6 +11,8 @@ const pluginWebC = require('@11ty/eleventy-plugin-webc');
  
 	 eleventyConfig.addPlugin(syntaxHighlight);
 	 eleventyConfig.addPlugin(pluginWebC);
+
+	 eleventyConfig.ignores.add('_webc/');
  
 	 return {
 		 templateFormats: [
