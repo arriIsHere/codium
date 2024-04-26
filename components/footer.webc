@@ -9,7 +9,7 @@ description: Component for the bottom of a page
 	<p>You can also include <a href="#">links in a footer</a></p>
 </footer>
 
-<codium-footer class="dark silly">
+<codium-footer class="dark">
 	<p>&copy; 2023 Example copyright</p>
 	<p>You can also include <a href="#">links in a footer</a></p>
 </codium-footer>
