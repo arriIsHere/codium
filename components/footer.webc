@@ -5,6 +5,11 @@ title: Footer
 description: Component for the bottom of a page
 ---
 <footer class="codium-footer dark">
-    <p>&copy; 2023 Example copyright</p>
-    <p>You can also include <a href="#">links in a footer</a></p>
+	<p>&copy; 2023 Example copyright</p>
+	<p>You can also include <a href="#">links in a footer</a></p>
 </footer>
+
+<codium-footer class="dark silly">
+	<p>&copy; 2023 Example copyright</p>
+	<p>You can also include <a href="#">links in a footer</a></p>
+</codium-footer>

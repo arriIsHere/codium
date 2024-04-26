@@ -1,4 +1,9 @@
 <footer webc:root="override" class="codium-footer">
-	<link rel="stylesheet" href="../css/components/footer.css" />
+	<style>
+		/* Import required items */
+ 		@import url('../colors.css');
+ 		@import url('../spacing.css');
+		@import url('../typography.css');
+	</style>
 	<slot/>
 </footer>
