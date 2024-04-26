@@ -10,9 +10,9 @@ const pluginWebC = require('@11ty/eleventy-plugin-webc');
  module.exports = (eleventyConfig) => {
  
 	 eleventyConfig.addPlugin(syntaxHighlight);
-	 eleventyConfig.addPlugin(pluginWebC);
-
-	 eleventyConfig.ignores.add('_webc/');
+	 eleventyConfig.addPlugin(pluginWebC, {
+		components: "_webc/**/*.webc",
+	 });
  
 	 return {
 		 templateFormats: [
@@ -30,6 +30,6 @@ const pluginWebC = require('@11ty/eleventy-plugin-webc');
 			 "woff",
 			 "woff2",
 		 ],
-		 passthroughFileCopy: true
-	 }
- }
+		 passthroughFileCopy: true,
+	 };
+ };

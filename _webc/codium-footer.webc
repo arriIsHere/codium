@@ -1,0 +1,4 @@
+<footer webc:root="override" class="codium-footer">
+	<link rel="stylesheet" href="../css/components/footer.css" />
+	<slot/>
+</footer>
