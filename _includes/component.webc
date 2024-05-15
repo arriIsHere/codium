@@ -9,7 +9,7 @@ tags: components
 	<script webc:type="js">
 		`<style webc:keep>
 		#display-content {
-			${backgroundImage ? `background-image: url('${backgroundImage}');` : ''}
+			${hideBackgroundInExample ? '' : `background-image: url('${backgroundImage}');`}
 			padding-top: 5em;
 			padding-bottom: 5em;
 		}
@@ -29,7 +29,7 @@ tags: components
 		@raw="content">
 	</section>
 	<section
-		webc:elsex
+		webc:else
 		id="display-content"
 		class="dark"
 		@raw="content">
