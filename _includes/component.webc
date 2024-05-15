@@ -15,11 +15,11 @@ tags: components
 		}
 	</style>
 	<section class="dark">
-		<syntax-highlight
-			language="html"
-			webc:import="npm:@11ty/eleventy-plugin-syntaxhighlight"
-			@text="content">
-		</syntax-highlight>
+		<template webc:type="11ty" 11ty:type="njk">
+			{% highlight "html" %}
+			{{ content | safe }}
+			{% endhighlight %}
+		</template>
 	</section>
 
 	<section 
@@ -28,7 +28,7 @@ tags: components
 		@raw="content">
 	</section>
 	<section
-		webc:else
+		webc:elsex
 		id="display-content"
 		class="dark"
 		@raw="content">
