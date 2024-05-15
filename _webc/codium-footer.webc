@@ -1,23 +1,8 @@
 <footer webc:root="override" class="codium-footer">
-	<style>
+	<style webc:type="11ty" 11ty:type="scss" webc:keep>
+		@import './css/components/sass/footer';
 		.codium-footer {
-			padding: var(--spacing-relative-small);
-			margin-bottom: 0;
-
-			text-align: center;
-
-			box-shadow: none;
-
-			text-shadow: var(--text-shadow);
-			box-shadow: var(--box-shadow);
-			background-color: var(--background-color);
-		}
-
-		.codium-footer p {
-			font-size: 0.8rem;
-
-			margin: 0;
-			padding-bottom: 0.25em;
+			@include codium-footer;
 		}
 	</style>
 	<slot/>
