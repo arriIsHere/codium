@@ -1,9 +1,9 @@
-<footer webc:root="override" class="codium-footer">
-	<style webc:type="11ty" 11ty:type="scss" webc:keep>
-		@import './css/components/sass/footer';
-		.codium-footer {
-			@include codium-footer;
-		}
-	</style>
+<footer webc:root="override">
 	<slot/>
 </footer>
+<style webc:type="11ty" 11ty:type="scss" webc:keep webc:scoped>
+	@import './css/components/sass/footer';
+	:host {
+		@include codium-footer;
+	}
+</style>
