@@ -12,13 +12,14 @@
 	box-sizing: border-box;
 	border-radius: 5px;
 
-	border: 5px solid var(--underline-color);
+	gap: 5px 0;
 }
 
 .codium-tabs label {
-	margin: var(--spacing-small);
+	padding: var(--spacing-small);
 	display: block;
 	line-height: 1.5;
+
 }
 
 .codium-tabs label::after {
@@ -47,6 +48,8 @@
 	flex-basis: 100%;
 	padding: 0 var(--spacing-small);
 	min-height: var(--spacing-relative-large);
+
+	border-top: 0.125em solid var(--background-color-invert);
 }
 
 .codium-tabs input[type=radio] {
