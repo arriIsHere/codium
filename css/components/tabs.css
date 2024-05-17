@@ -1,0 +1,71 @@
+/**
+ * Copyright 2024 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+
+.codium-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+	gap: 5px 0;
+}
+
+.codium-tabs label {
+	padding: var(--spacing-small);
+	display: block;
+	line-height: 1.5;
+
+}
+
+.codium-tabs label::after {
+	content: '';
+	display: block;
+	margin: 0;
+	margin-left: 0.125em;
+
+	border-radius: 0.125em;
+
+	height: 0.125em;
+	background-color: none;
+	box-shadow: var(--text-shadow);
+	background-color: var(--underline-color);
+	width: 0;
+}
+
+.codium-tabs label:hover::after  {
+	width: 80%;
+	transition: width 400ms ease-out 300ms;
+}
+
+.codium-tabs .codium-tabs-content {
+	order: 2;
+	display: none;
+	flex-basis: 100%;
+	padding: 0 var(--spacing-small);
+	min-height: var(--spacing-relative-large);
+
+	border-top: 0.125em solid var(--background-color-invert);
+}
+
+.codium-tabs input[type=radio] {
+	display: none;
+}
+
+.codium-tabs input[type=radio] + label {
+	order: 1;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.codium-tabs input[type=radio]:checked + label::after {
+	width: 80%;
+}
+
+.codium-tabs input[type=radio]:checked + label + .codium-tabs-content {
+	display: block;
+}
