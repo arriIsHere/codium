@@ -8,6 +8,45 @@
 .codium-tabs {
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+	border: 5px solid var(--underline-color);
+}
+
+.codium-tabs label {
+	margin: var(--spacing-small);
+	display: block;
+	line-height: 1.5;
+}
+
+.codium-tabs label::after {
+	content: '';
+	display: block;
+	margin: 0;
+	margin-left: 0.125em;
+
+	border-radius: 0.125em;
+
+	height: 0.125em;
+	background-color: none;
+	box-shadow: var(--text-shadow);
+	background-color: var(--underline-color);
+	width: 0;
+}
+
+.codium-tabs label:hover::after  {
+	width: 80%;
+	transition: width 400ms ease-out 300ms;
+}
+
+.codium-tabs .codium-tabs-content {
+	order: 2;
+	display: none;
+	flex-basis: 100%;
+	padding: 0 var(--spacing-small);
+	min-height: var(--spacing-relative-large);
 }
 
 .codium-tabs input[type=radio] {
@@ -16,8 +55,14 @@
 
 .codium-tabs input[type=radio] + label {
 	order: 1;
+	box-sizing: border-box;
+	display: inline-block;
 }
 
-.codium-tabs input[type=radio] + label + .codium-tabs-content {
-	order: 2;
+.codium-tabs input[type=radio]:checked + label::after {
+	width: 80%;
+}
+
+.codium-tabs input[type=radio]:checked + label + .codium-tabs-content {
+	display: block;
 }
