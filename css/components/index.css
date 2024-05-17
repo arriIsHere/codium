@@ -33,6 +33,7 @@
 	--frosted-color: var(--background-dark-frosted);
 	--frosted-color-invert: var(--background-light-frosted);
 	--background-color: var(--background-dark);
+	--background-color-invert: var(--background-light);
 
 	--error-color: var(--color-asta-light);
 	--error-color-invert: var(--color-asta-dark);
@@ -53,6 +54,7 @@
 	--frosted-color: var(--background-light-frosted);
 	--frosted-color-invert: var(--background-dark-frosted);
 	--background-color: var(--background-light);
+	--background-color-invert: var(--background-dark);
 
 	--error-color: var(--color-asta-dark);
 	--error-color-invert: var(--color-asta-light);
