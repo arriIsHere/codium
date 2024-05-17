@@ -1,0 +1,23 @@
+/**
+ * Copyright 2024 Arriana Blais
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ */
+
+
+.codium-tabs {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.codium-tabs input[type=radio] {
+	display: none;
+}
+
+.codium-tabs input[type=radio] + label {
+	order: 1;
+}
+
+.codium-tabs input[type=radio] + label + .codium-tabs-content {
+	order: 2;
+}

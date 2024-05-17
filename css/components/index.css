@@ -13,6 +13,7 @@
 @import './footer.css';
 @import './page.css';
 @import './table.css';
+@import './tabs.css';
 
 :focus {
 	outline: var(--underline-color) dashed 0.1rem;
